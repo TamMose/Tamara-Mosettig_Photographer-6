@@ -39,12 +39,8 @@ header {
     position: -webkit-sticky;
     /* Safari */
     position: sticky;
-<<<<<<< HEAD
     z-index: 1;
 
-=======
-    
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
 
 }
 
@@ -76,11 +72,7 @@ a {
     padding-right: 20px;
 }
 
-<<<<<<< HEAD
 .a {
-=======
-.a{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     color: orangered;
 
 }
@@ -205,7 +197,6 @@ p {
 
 }
 
-<<<<<<< HEAD
 .cont-index {
     background-color: #1f1f1f;
     display: flex;
@@ -222,23 +213,6 @@ p {
 
 
 .card1 {
-=======
-.cont-index{
-    background-color: #1f1f1f; 
-    display: flex;
-    justify-content: space-around;
-    
-}
-.card-text{
-    font-family: 'Cairo', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color:whitesmoke;
-}
-
-
-.card1{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     margin: 20px;
     padding-top: 50px;
     background: none;
@@ -248,12 +222,8 @@ p {
     overflow: hidden;
     border-radius: 0%;
 }
-<<<<<<< HEAD
 
 .imgcard {
-=======
-.imgcard{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     text-justify: center;
     object-fit: cover;
 
@@ -280,11 +250,7 @@ p {
     padding-top: 10%;
 }
 
-<<<<<<< HEAD
 .input {
-=======
-.input{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     border: none;
     color: orangered;
     /*color: yellow;*/
@@ -297,39 +263,23 @@ p {
 
 }
 
-<<<<<<< HEAD
 .marcolor {
-=======
-.marcolor{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     margin: 0;
     background: whitesmoke;
 }
 
-<<<<<<< HEAD
 .alista {
     padding-left: 60px;
 }
 
 .ullista {
-=======
-.alista{
-    padding-left: 60px;
-}
-.ullista{
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     margin-bottom: 50px;
     margin-top: 50px;
 
 }
-<<<<<<< HEAD
 
 .alista:hover {
     color: orangered
-=======
-.alista:hover{
-    color:orangered
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
 }
 
 /*--- INFO ---*/
@@ -510,12 +460,6 @@ h2 {
     height: 85%;
     object-fit: cover;
 }
-.imagenlove2 {
-    width: 90%;
-    height: auto;
-    object-fit: cover;
-    padding: 20px;
-}
 
 .imagenlove2 {
     width: 80%;
@@ -537,11 +481,7 @@ h2 {
 @keyframes mianimation {}
 
 h3 {
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     font-family: 'Cairo', sans-serif;
     font-weight: 400;
     font-size: 2rem;
@@ -575,7 +515,6 @@ h3 {
 .pt {
     padding-top: 40px;
 }
-<<<<<<< HEAD
 
 .carousel-cont {
     width: 100%;
@@ -586,15 +525,6 @@ h3 {
 .img-carousel {
     height: 750px;
     object-fit: cover;
-=======
-.h3{
-    font-size: 2.5rem;
-    line-height: 2.8rem;
-    letter-spacing: 0rem;
-    color: #1f1f1f;
-    font-weight: 300;
-    padding: 100px;
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
 }
 
 
@@ -736,16 +666,6 @@ form {
         margin-bottom: 20px;
 
     }
-    .cont-index{
-        display: flex;
-        flex-direction:column-reverse;
-        
-    }
-
-    .card1{
-        width: 90%;
-
-    }
 
     .cont-index {
         display: flex;
@@ -877,14 +797,6 @@ form {
         margin-top: 20px;
         padding-bottom: 0px;
 
-    }
-    .h3{
-        font-size: 1.5rem;
-        line-height: 1.8rem;
-        letter-spacing: 0rem;
-        color: #1f1f1f;
-        font-weight: 300;
-        padding: 50px;
     }
 
     .h3 {
@@ -1028,19 +940,11 @@ form {
 
     }
 
-<<<<<<< HEAD
     .cont-index {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
 
-=======
-    .cont-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     }
 
     /*------ MENU ------*/
@@ -1154,11 +1058,7 @@ form {
     }--*/
 
     h3 {
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
         font-family: 'Cairo', sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
@@ -1291,19 +1191,11 @@ form {
 
     }
 
-<<<<<<< HEAD
     .cont-index {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
 
-=======
-    .cont-index{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        
->>>>>>> dc8007b0cf5583fef188744cfe8bd40ac8519dc9
     }
 
     /*------ MENU ------*/
@@ -1416,14 +1308,6 @@ form {
         margin-top: 40px;
         padding-bottom: 0px;
 
-    }
-    .h3{
-        font-size: 2.5rem;
-        line-height: 2.8rem;
-        letter-spacing: 0rem;
-        color: #1f1f1f;
-        font-weight: 300;
-        padding: 100px;
     }
 
     .h3 {
