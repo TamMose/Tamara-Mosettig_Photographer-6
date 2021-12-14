@@ -68,12 +68,14 @@ a {
     color: #1f1f1f;
     font-family: 'Cairo', sans-serif;
     font-size: 2rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    
+    
 }
 
 .a {
     color: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -99,7 +101,182 @@ a {
     height: auto;
 }
 
+
+/*---img INDEX2 ---*/
+
+.centrado-color {
+    color: orangered;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    font-size: 11rem;
+    font-weight: 600;
+}
+
+.centrado-2 {
+    color: orangered;
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    font-size: 8rem;
+    font-weight: 200;
+}
+
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+.video-index {
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 155px;
+    width: 80%;
+    text-align: center;
+
+}
+
+.h2 {
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 4rem;
+    color: orangered;
+}
+
+.h2-linea:hover {
+    text-decoration-line: underline;
+    color: orangered;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+}
+.text-center2 {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.meet {
+    font-family: 'Cairo', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: orangered;
+    text-align: center;
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    background: whitesmoke;
+    padding-top: 25px;
+
+
+}
+
+.meet-caja {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.meet:hover {
+    font-weight: 400;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.p-index{
+    font-size: 2rem;
+    font-weight: 300;
+    
+}
+
+.linea{
+    border-top: 1px solid #1f1f1f;
+    width: 100%;
+    padding: 0%;
+    
+}
+
+.linea-der{
+    border-right: 1px solid #1f1f1f;
+    border-left: 1px solid #1f1f1f;
+}
+
+.colfa2 {
+    padding: 20px;
+    margin: 0;
+
+}
+.h3-index{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.redes-index{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #1f1f1f;
+    text-align: left;
+    padding: 10px;
+}
+
+.text1 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #1f1f1f;
+    text-align: left;
+    padding: 30px;
+}
+
+.imgcard {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+.h4-index{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #1f1f1f;
+    padding-left: 60px;
+    text-align: left;
+    margin: 0;
+}
+
+
+
 /*---img INDEX ---*/
+
+
+
 
 main {
     width: 100%;
@@ -125,7 +302,7 @@ h1 {
     color: #1f1f1f;
     color: orangered;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 120px;
     text-align: center;
     padding: 60px;
@@ -136,38 +313,11 @@ h1 {
     font-size: 3rem;
 }
 
-
-marquee {
-    width: 100%;
-    height: auto;
-    font-weight: 100;
-    font-size: 3rem;
-    color: orangered;
-    color: #1f1f1f;
-    background-color: orangered;
-    /*background-color: yellow;*/
-    background-color: whitesmoke;
-    font-family: 'Cairo', sans-serif;
-    border-bottom: 1px solid #1f1f1f;
-    border-top: 1px solid #1f1f1f;
-    display: flex;
-    justify-content: end;
-    margin-top: 0px;
-
-
-}
-
 .section2 {
     width: 100%;
     border-top: 1px solid #1f1f1f;
 
 
-}
-
-.grid-container2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 1200px;
 }
 
 
@@ -204,12 +354,7 @@ p {
 
 }
 
-.card-text {
-    font-family: 'Cairo', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: whitesmoke;
-}
+
 
 
 .card1 {
@@ -223,16 +368,17 @@ p {
     border-radius: 0%;
 }
 
-.imgcard {
-    text-justify: center;
-    object-fit: cover;
 
-
-}
 
 
 
 /*------ MENU ------*/
+
+.medidasbody{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
 #ol {
     border-bottom: 1px solid #1f1f1f;
@@ -247,7 +393,7 @@ p {
 
 .ulol {
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .input {
@@ -280,6 +426,87 @@ p {
 
 .alista:hover {
     color: orangered
+}
+
+.info-img{
+    width: 100%;   
+    
+}
+.menu-info{
+    width: 20%;
+    display: none;
+}
+.info-img:hover>.menu-info{
+    display:inline;
+    padding-left: 400px;
+    position: absolute;
+    width: 15%;
+    
+}
+
+.love-img{
+    width: 100%;   
+    
+}
+.menu-love{
+    width: 20%;
+    display: none;
+}
+.love-img:hover>.menu-love{
+    display:inline;
+    padding-left: 250px;
+    position: absolute;
+    width: 15%;
+    
+}
+
+.port-img{
+    width: 100%;   
+    
+}
+.menu-port{
+    width: 20%;
+    display: none;
+}
+.port-img:hover>.menu-port{
+    display:inline;
+    padding-left: 300px;
+    position: absolute;
+    width: 15%;
+    
+}
+
+.fash-img{
+    width: 100%;   
+    
+}
+.menu-fash{
+    width: 20%;
+    display: none;
+    
+}
+.fash-img:hover>.menu-fash{
+    display:inline;
+    padding-left: 300px;
+    position: absolute;
+    width: 15%;
+    
+}
+
+.soc-img{
+    width: 1000%;   
+    
+}
+.menu-soc{
+    width: 20%;
+    display: none;
+}
+.soc-img:hover>.menu-soc{
+    display:inline;
+    padding-left: 300px;
+    position: absolute;
+    width: 15%;
+    
 }
 
 /*--- INFO ---*/
@@ -405,29 +632,11 @@ section {
     display: block;
     width: 100%;
     height: auto;
-    overflow: hidden;
     /*display: flex;
     flex-direction: column;*/
 }
 
-h2 {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    border-top: 1px solid #1f1f1f;
 
-    color: orangered;
-    /*color: yellow;*/
-    -webkit-text-stroke: 0.75px #1f1f1f;
-    font-family: 'Cairo', sans-serif;
-    font-weight: 500;
-    font-size: 6.5rem;
-    text-align: center;
-    line-height: 120px;
-}
 
 .grid-container {
     display: grid;
@@ -602,8 +811,23 @@ form {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------*/
 /*---- RESPONSIVE (AYUDAME JEBUS)----*/
+
+
+
+
+
 
 @media(min-width: 320px) {
 
@@ -629,9 +853,71 @@ form {
 
     /*--INDEX---*/
 
-    marquee {
-        font-size: 1.5rem;
+
+    .centrado-color {
+
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        font-size: 2.6rem;
     }
+
+    .centrado-2 {
+
+        bottom: 20px;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        font-size: 5rem;
+        font-weight: 200;
+    }
+
+
+    .video-index {
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: 120px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .h2 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 2rem;
+        color: orangered;
+    }
+
+    .p-index{
+        font-size: 1rem;
+        font-weight: 300;
+        
+    }
+
+
+    .meet {
+        font-size: 1.5rem;
+        width: 55%;
+        height: 85px;
+        border-radius: 50%;
+        border: 1px solid orangered;
+        padding-top: 25px;
+    }
+    
+    .meet-caja {
+        width: 100%;
+        height: 235px;
+    }
+
+    .h4-index{
+        font-size: 1.8rem;
+    }
+
+    .linea-der{
+        border-right: 0px solid #1f1f1f;
+        border-left: 0px solid #1f1f1f;
+    }
+
+
 
     .section2 {
         width: 100%;
@@ -640,11 +926,6 @@ form {
 
     }
 
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-rows: auto;
-    }
 
 
     .description {
@@ -701,6 +982,35 @@ form {
         color: #1f1f1f;
         font-size: 1.2rem;
 
+    }
+    .info-img:hover>.menu-info{
+        display:none;
+        width: 15%;
+        
+    }
+    
+    .love-img:hover>.menu-love{
+        display:none;
+        width: 15%;
+        
+    }
+    .port-img:hover>.menu-port{
+        display:none;
+        width: 15%;
+        
+    }
+    
+    .fash-img:hover>.menu-fash{
+        display:none;
+        width: 15%;
+    
+        
+    }
+    
+    .soc-img:hover>.menu-soc{
+        display:none;
+        width: 15%;
+        
     }
 
 
@@ -874,6 +1184,12 @@ form {
 
 }
 
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
 
 
@@ -904,9 +1220,70 @@ form {
 
     /*--INDEX---*/
 
-    marquee {
-        font-size: 3rem;
+
+    .centrado-color {
+        font-size: 5rem;
     }
+
+    .centrado-2 {
+        bottom: 30px;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        font-size: 8rem;
+        font-weight: 200;
+    }
+
+
+    main {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .video-index {
+        padding: 0px;
+        margin-bottom: 40px;
+        margin-top: 170px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .h2 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 3rem;
+        color: orangered;
+    }
+
+    .p-index{
+        font-size: 2rem;
+        font-weight: 300;
+        
+    }
+
+    .meet {
+        font-size: 1.8rem;
+        width: 40%;
+        height: 100px;
+        border-radius: 50%;
+        border: 1px solid orangered;
+        padding-top: 25px;
+    }
+    
+    .meet-caja {
+        width: 100%;
+        height: 300px;
+    }
+
+    .h4-index{
+        font-size: 2rem;
+    }
+
+    .linea-der{
+        border-right: 1px solid #1f1f1f;
+        border-left: 1px solid #1f1f1f;
+    }
+
 
     .section2 {
         padding-top: 0px;
@@ -914,11 +1291,7 @@ form {
 
     }
 
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: auto;
-    }
+
 
     .description {
         font-size: 1.2rem;
@@ -1032,7 +1405,7 @@ form {
     /*--Wedding--*/
 
 
- /*--   .grid-container {
+    /*--   .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 490px;
@@ -1094,7 +1467,7 @@ form {
 
     }
 
- /*---   .dentrodebox {
+    /*---   .dentrodebox {
         font-size: 3.8rem;
         width: 750px;
 
@@ -1121,6 +1494,13 @@ form {
         padding-top: 50px;
     }
 }
+
+
+
+
+
+
+
 
 
 
@@ -1154,9 +1534,73 @@ form {
 
     /*--INDEX---*/
 
-    marquee {
-        font-size: 3rem;
+
+    .centrado-color {
+        font-size: 11rem;
     }
+
+    .centrado-2 {
+
+        bottom: 30px;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
+        font-size: 8rem;
+        font-weight: 200;
+    }
+
+
+    .video-index {
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: 200px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .h2 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 5rem;
+        color: orangered;
+    }
+
+    .p-index{
+        font-size: 2rem;
+        font-weight: 300;
+        
+    }
+
+    .meet {
+        font-size: 2rem;
+        width: 25%;
+        height: 105px;
+        border-radius: 50%;
+        border: 1px solid orangered;
+        padding-top: 25px;
+    }
+    
+    .meet-caja {
+        width: 100%;
+        height: 300px;
+    }
+
+
+.h4-index{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #1f1f1f;
+    padding-left: 60px;
+    text-align: left;
+    margin: 0;
+}
+
+.linea-der{
+    border-right: 1px solid #1f1f1f;
+    border-left: 1px solid #1f1f1f;
+}
+
+
 
     .section2 {
         padding-top: 0px;
@@ -1164,11 +1608,7 @@ form {
 
     }
 
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: auto;
-    }
+
 
 
     .description {
@@ -1222,6 +1662,36 @@ form {
         font-size: 2rem;
 
     }
+
+.info-img:hover>.menu-info{
+    display:inline;
+    width: 15%;
+    
+}
+
+.love-img:hover>.menu-love{
+    display:inline;
+    width: 15%;
+    
+}
+.port-img:hover>.menu-port{
+    display:inline;
+    width: 15%;
+    
+}
+
+.fash-img:hover>.menu-fash{
+    display:inline;
+    width: 15%;
+
+    
+}
+
+.soc-img:hover>.menu-soc{
+    display:inline;
+    width: 15%;
+    
+}
 
     /*------ INFO ------*/
 
@@ -1324,7 +1794,8 @@ form {
         height: 85%;
         object-fit: cover;
     }
-    .caja{
+
+    .caja {
         text-align: center;
         justify-items: center;
     }
@@ -1352,8 +1823,8 @@ form {
 
     form {
         font-size: 2rem;
-        
-        
+
+
     }
 
     .dentrodebox {
